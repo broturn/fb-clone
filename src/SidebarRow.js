@@ -7,6 +7,7 @@ function SidebarRow({ title, Icon, src }) {
         <div className="sidebarRow">
         {src && <Avatar src={src}/> }
         {Icon &&<Icon />}
+        
             <p>{title}</p>
         </div>
     )
