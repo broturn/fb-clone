@@ -2,26 +2,27 @@
     display: grid;
     place-items: center;
     height: 100vh;
+    background-color: white;
 }
 
-.login > button {
+.login button {
     width: 300px;
     background-color: #2e81f4;
     color: #eff2f5;
     font-weight: 800;
 }
 
-.login > button:hover {
+.login button:hover {
     background-color: white;
     color: #2e81f4;
 }
 
-.login > div > img {
+.login > .login__logo img {
     object-fit: contain;
     height: 150px;
 }
 
-.login > div {
+.login > .login__logo {
     display: flex;
     flex-direction: column;
 }
