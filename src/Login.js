@@ -8,7 +8,7 @@ function Login() {
         //SignIn...
         auth.signInWithPopup(provider)
         .then(result => {
-            console.log(result)
+            console.log(result.user)
         }).catch((error) => alert(error.message));
     };
     return (
